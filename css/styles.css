@@ -50,5 +50,14 @@ h1 {
 
 .iphone {
   width: 60%;
-  transform: rotate(30deg);
+  transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
 }
