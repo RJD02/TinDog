@@ -13,3 +13,9 @@ h1 {
   background-color: #ff4c68;
   color: white;
 }
+
+/* Navigation Bar Style */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+}
