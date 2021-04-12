@@ -20,8 +20,17 @@ h1 {
 
 /* Navigation Bar Style */
 
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-top: 3rem;
+}
+
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+.nav-link {
+  padding-left: 20px;
 }
