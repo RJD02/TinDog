@@ -52,3 +52,10 @@ h1 {
   width: 60%;
   transform: rotate(30deg);
 }
+
+/* Features */
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
