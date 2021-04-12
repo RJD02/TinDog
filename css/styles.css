@@ -73,3 +73,12 @@ h1 {
   color: #8f8f8f;
   padding: 0 8%;
 }
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
