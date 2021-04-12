@@ -21,7 +21,7 @@ h1 {
 /* Navigation Bar Style */
 
 .navbar {
-  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
   padding-top: 3rem;
 }
 
@@ -31,6 +31,11 @@ h1 {
   font-weight: bold;
 }
 
+.nav-item {
+  padding: 0 18px;
+}
+
 .nav-link {
-  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
 }
