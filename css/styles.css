@@ -3,13 +3,20 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -51,12 +58,16 @@ h1 {
 .iphone {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features */
 
 #features {
   padding: 7% 10%;
+  position: relative;
+  background-color: white;
 }
 
 .feature-box {
@@ -81,4 +92,44 @@ h1 {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 16%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: ce;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  /* align-items: center; */
 }
