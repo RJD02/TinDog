@@ -23,6 +23,7 @@ h2 {
 #title {
   background-color: #ff4c68;
   color: white;
+  /* padding: 20px; */
 }
 
 /* Navigation Bar Style */
@@ -58,12 +59,17 @@ h2 {
 .iphone {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
 }
 
 /* Features */
 
 #features {
   padding: 7% 10%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
 }
 
 .feature-box {
