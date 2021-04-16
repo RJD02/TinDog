@@ -13,6 +13,13 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #title {
   background-color: #ff4c68;
   color: white;
@@ -81,4 +88,30 @@ h1 {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 7% 16%;
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
